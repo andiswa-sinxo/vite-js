@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-
+rm -rf dist
 # abort on errors
 set -e
 
@@ -18,6 +18,6 @@ git add -A
 git commit -m 'deploy'
 
 # Add your GitHub repo details here
-git push -f https://github.com/andiswa-sinxo/vite-js main:gh-pages
+git push -f https://github.com/andiswa-sinxo/vite-js.git  main:gh-pages
 
 cd -

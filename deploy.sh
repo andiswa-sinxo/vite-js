@@ -21,3 +21,4 @@ git commit -m 'deploy'
 git push -f https://github.com/andiswa-sinxo/vite-js.git  main:gh-pages
 
 cd -
+

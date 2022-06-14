@@ -1,6 +1,7 @@
-function LoveCounter() {
+export default function LoveCounter () {
+
     return {
-      loveCounter : 0,
+      loveCounter :Alpine.$persist(0),
       init() {
         setInterval( () => {
           if (this.loveCounter > 0) {
